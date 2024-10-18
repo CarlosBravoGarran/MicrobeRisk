@@ -24,6 +24,9 @@ div, ul, nav, header, footer, a, li, label{
     align-items: center;
     min-height: 100vh;
     background-color: #e2eaff;
+    background-image: url(../img/background.webp);
+    background-size: cover;
+    background-position: right;
     color: #101632dd;
 }
 
