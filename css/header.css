@@ -36,6 +36,7 @@
 .header__nav-item{
     list-style: none;
     font-weight: bold;
+    padding: 0 10px;
 }
 
 .header__nav-item a{
