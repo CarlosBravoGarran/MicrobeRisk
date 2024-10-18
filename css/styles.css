@@ -4,6 +4,8 @@
 
 body{
     font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     background-color: #e2eaff;
