@@ -1,0 +1,70 @@
+
+.profiles{
+    background-color: #18233f;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.profiles__title{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.profiles__member-img{
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px auto;
+    margin-bottom: 0;
+    box-shadow: 0 2px 25px #fff9;
+}
+
+.profiles__member-name{
+    margin: 20px;
+    margin-bottom: 0;
+}
+
+.profiles__member-container{
+    display: grid;
+    grid-template-columns: 2fr;
+    max-width: 1300px;
+    margin: auto;
+    width: 100%;
+    gap: 12px;
+    padding: 12px;
+    min-height: 80vh;
+}
+
+
+.profiles__member{
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-content: center;
+}
+
+.profiles__member:hover{
+    opacity: 0.8;
+    outline: 2px solid #fff6;
+}
+
+/*---------GRID QUERIES------------ */
+
+@media screen and (min-width: 56.25rem){
+
+    .profiles__member-container{
+        grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    }
+}
+
+@media screen and (min-width: 81.25rem){
+    .profiles__member-container{
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    }
+
+
+}
