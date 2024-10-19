@@ -9,6 +9,7 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .profiles__title{
