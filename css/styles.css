@@ -48,4 +48,21 @@ h1{
     margin: 20px;
 }
 
-/*------------END MAIN----------------*/
+.main__arrow{
+    width: 50px;
+    color: #101632dd;
+    position: absolute;
+    bottom: 20px;
+    cursor: pointer;
+    animation: blink 1s infinite;
+}
+
+
+@keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
