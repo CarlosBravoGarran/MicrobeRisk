@@ -23,6 +23,14 @@
     box-shadow: 0 2px 25px #fff9;
 }
 
+.profiles__member-container:hover .profiles__member{
+    opacity: 0.5;
+  }
+  
+.profiles__member:hover{
+    opacity: 1 !important;
+  }
+
 .profiles__member-name{
     margin: 20px;
     margin-bottom: 0;
@@ -45,13 +53,8 @@
     background-size: cover;
     display: grid;
     place-content: center;
+    transition: opacity 0.5s ease;
 }
-
-.profiles__member:hover{
-    opacity: 0.8;
-    outline: 2px solid #fff6;
-}
-
 
 
 /*---------GRID QUERIES------------ */
