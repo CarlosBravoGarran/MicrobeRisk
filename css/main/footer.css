@@ -2,15 +2,15 @@
 
 footer {
 	margin-top: auto;
-	background-color: #333;
-	color: #fff;
+	background-color: #e2eaff;
+	color: #101632dd;
 	padding: 40px;
 	text-align: center;
 	font-weight: bold;
 }
 
 footer a {
-	color: #fff;
+	color: #101632dd;
 	text-decoration: none;
 	cursor: pointer;
 }
