@@ -33,6 +33,7 @@
     background-size: cover;
     display: grid;
     place-content: center;
+    padding: 12px;
 }
 
 .info__project:hover{
