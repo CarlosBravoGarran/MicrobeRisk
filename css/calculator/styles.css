@@ -49,6 +49,11 @@ textarea{
     cursor: pointer;
 }
 
+#more{
+    font-weight: bold;
+    font-size: 30px;
+}
+
 h1 {
     color: #26a;
     font-size: 1rem;
