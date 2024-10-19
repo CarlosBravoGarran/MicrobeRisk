@@ -1,4 +1,3 @@
-
 /*---------GRID SECTION------------ */
 
 .info{
@@ -71,5 +70,5 @@
     .info__project:nth-child(6){
         grid-column: span 4;
     }
-    
+
 }
