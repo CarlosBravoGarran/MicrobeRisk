@@ -62,6 +62,13 @@ h1 {
     right: 20;
 }
 
+#yes{
+    color: green;
+}
+
+#no{
+    color: red;
+}
 /*---------PROFILE QUERIES------------ */
 
 @media screen and (min-width: 720px) {
@@ -89,7 +96,7 @@ h1 {
         justify-content: center;
         background-color: #fff;
         width: 30%;
-        padding: 20px;
+        padding: 10px;
     }
 
     .profile__data-container {
