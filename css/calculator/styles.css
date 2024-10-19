@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }
 
+
 .profile__wrapper {
     display: flex;
     flex-direction: column;
@@ -36,6 +37,14 @@ h1 {
     font-size: 2rem;
 }
 
+.result {
+    font-size: 3rem;
+    color: #26a;
+    margin: 0;
+    position: fixed;
+    right: 20;
+}
+
 /*---------PROFILE QUERIES------------ */
 
 @media screen and (min-width: 720px) {
@@ -53,14 +62,14 @@ h1 {
         width: 90vw;
         margin: auto;
         border-radius: 10px;
-        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0);
+        margin-top: 10vh;
     }
 
     .doctor__info {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
         background-color: #fff;
         width: 30%;
         padding: 20px;
@@ -69,7 +78,6 @@ h1 {
     .profile__data-container {
         background-color: #fff;
         display: flex;
-        align-items: center;
         width: 100%;
         margin: 0;
     }
@@ -84,7 +92,7 @@ h1 {
     }
 
     .profile__img {
-        width: 300px;
+        width: 80px;
         height: auto;
         object-fit: cover;
         background-color: #fff;
@@ -97,3 +105,4 @@ h1 {
         text-wrap: balance;
     }
 }
+
