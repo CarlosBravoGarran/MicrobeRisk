@@ -42,10 +42,15 @@ h1{
     text-align: center;
 }
 
+.main__title {
+    text-shadow: 1px 0px 1px #fff;
+}
+
 .main__text{
     text-align: center;
     max-width: 600px;
     margin: 20px;
+    text-shadow: 1px 0px 1px #fff;
 }
 
 .main__arrow{
