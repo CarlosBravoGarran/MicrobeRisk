@@ -1,0 +1,16 @@
+/* FOOTER CSS STYLE */
+
+footer {
+	margin-top: auto;
+	background-color: #333;
+	color: #fff;
+	padding: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
