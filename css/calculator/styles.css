@@ -1,74 +1,97 @@
-/*---------PROFILE SECTION------------ */
 
-.profile__wrapper{
+*{
+    box-sizing: border-box;
+}
+
+.profile__wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #fff;
     max-width: 1400px;
+    margin: auto;
 }
 
-.profile__data-container{
+.profile__data-container {
     max-width: 600px;
     padding: 12px;
+    margin: auto;
 }
 
-.profile__img-container{
+.profile__img-container {
     max-height: 500px;
-    overflow: hidden
+    overflow: hidden;
 }
 
-.profile__img{
+.profile__img {
     max-width: 100%;
-    width: 720px;
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
-h1{
-    color:#26a;
+h1 {
+    color: #26a;
+    font-size: 2rem;
 }
 
 /*---------PROFILE QUERIES------------ */
 
-@media screen and (min-width: 720px){
+@media screen and (min-width: 720px) {
 
-	.profile {
-		height: 100vh;
-	}
+    .profile {
+        height: 100vh;
+        justify-content: center;
+    }
 
-	.profile__wrapper{
+    .profile__wrapper {
         flex-direction: row;
         padding: 20px;
         background-color: transparent;
-        height: 90vh;
-		width: 90vw;
+        height: 80vh;
+        width: 90vw;
         margin: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     }
 
-    .profile__data-container{
+    .doctor__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        width: 30%;
+        padding: 20px;
+    }
+
+    .profile__data-container {
         background-color: #fff;
         display: flex;
         align-items: center;
-        border-radius: 0px 20px 20px 0px;
-        box-shadow: 0px 0px 9px #0003;
+        width: 100%;
+        margin: 0;
     }
 
-    .profile__data{
+    .profile__data {
         max-width: 620px;
     }
 
-    .profile__img-container{
+    .profile__img-container {
         max-height: initial;
         border-radius: 20px 0px 0px 20px;
     }
 
-    .profile__img{
-        height: 100%;
+    .profile__img {
+        width: 300px;
+        height: auto;
         object-fit: cover;
-        width: 620px;
         background-color: #fff;
+        border-radius: 50%;
     }
 
-    h1{
+    h1 {
         margin-top: 0;
         font-size: 4rem;
         text-wrap: balance;
