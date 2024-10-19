@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/main/info.css">
     <link rel="stylesheet" href="../css/main/profiles.css">
     <link rel="stylesheet" href="../css/main/footer.css">
+    <link rel="stylesheet" href="../css/main/login.css">
 </head>
 <body>
     <main id="home" class="main">
@@ -24,7 +25,7 @@
             <ul class="header__nav-list">
                 <li class="header__nav-item"><a href="#home" >Home</a></li>
                 <li class="header__nav-item"><a href="#info" >Our Solution</a></li>
-                <li class="header__nav-item"><a href="#" >Your Calculator</a></li>
+                <li class="header__nav-item"><a href="#login" >Your Calculator</a></li>
                 <li class="header__nav-item"><a href="#profiles" >About Us</a></li>
             </ul>
         </nav>
@@ -52,6 +53,17 @@
                 <h2 class="info__project-name" >Project 6</h2>
             </div>
         </div>
+    </section>
+
+    <section id="login" class="login">
+        <h2 class="login__title" >Access Your Calculator</h2>
+        <form class="login__form" action="#">
+            <label for="email" class="login__label">Email</label>
+            <input type="email" name="email" id="email" class="login__input" placeholder="example@salud.madrid.org" required>
+            <label for="password" class="login__label">Password</label>
+            <input type="password" name="password" id="password" class="login__input" placeholder="password" required>
+            <button type="submit" class="login__button">Login</button>
+        </form>
     </section>
 
     <section id="profiles" class="profiles">
