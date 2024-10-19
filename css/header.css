@@ -4,7 +4,7 @@
 
 .header{
     background-color: #fff;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,6 +15,7 @@
     padding: 20px 0;
     margin: auto;
     box-shadow: 0 2px 25px #fff9;
+    box-sizing: border-box;
 }
 
 .header__nav{
@@ -36,6 +37,7 @@
 .header__nav-item{
     list-style: none;
     font-weight: bold;
+    padding: 0 10px;
 }
 
 .header__nav-item a{
