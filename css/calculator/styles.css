@@ -57,8 +57,7 @@ h1 {
 .result {
     font-size: 3rem;
     color: #26a;
-    margin: 0;
-    position: fixed;
+    margin: 0;;
     right: 20;
 }
 
