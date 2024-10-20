@@ -6,6 +6,10 @@
 
 Este proyecto fue desarrollado durante el hackathon **Innomakers4Health 2024**, organizado por Pfizer y Wayra, y celebrado en 42Madrid el 18 y 19 de octubre de 2024. El evento se centró en crear soluciones innovadoras para combatir la multirresistencia a los antibióticos, un problema cada vez más preocupante en el ámbito de la salud.
 
+<div align="center">
+  <img src="assets/demo.gif" alt="Demostración del Proyecto">
+</div>
+
 ## Funcionalidades
 
 - **Cálculo de Riesgo**: Herramienta que, tras introducir algunas variables, calcula la probabilidad de que un paciente esté infectado con una bacteria multirresistente.
